@@ -1,1 +1,1 @@
-hef::Log.info("********** Hello, World! **********")
+Chef::Log.info("********** Hello, World! **********")
