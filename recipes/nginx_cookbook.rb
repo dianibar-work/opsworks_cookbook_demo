@@ -1,3 +1,9 @@
+directory '/tmp' do
+  owner 'root'
+  group 'root'
+  mode '1777'
+end
+
 apt_repository 'nginx' do
   uri 'http://nginx.org/packages/ubuntu/'
   key 'ABF5BD827BD9BF62'
